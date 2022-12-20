@@ -1,0 +1,362 @@
+akonadi-mime (4:21.08.1-1-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Thu, 24 Nov 2022 07:19:19 +0800
+
+akonadi-mime (4:21.08.1-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.1).
+  * Bump Standards-Version to 4.6.0, no change required.
+
+ -- Norbert Preining <norbert@preining.info>  Sat, 11 Sep 2021 07:18:49 +0900
+
+akonadi-mime (4:21.08.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.0).
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 16 Aug 2021 15:41:27 +0900
+
+akonadi-mime (4:21.04.3-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.3).
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 09 Jul 2021 10:31:46 +0900
+
+akonadi-mime (4:21.04.1-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.1).
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 14 May 2021 06:08:00 +0900
+
+akonadi-mime (4:21.04.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.0).
+  * Borrow minimal upstream signing key from k3b.
+  * Drop Kubuntu from maintainer name.
+  * Removed Eshat Cakar, George Kiagiadakis, Maximiliano Curia, Modestas
+    Vainius from the uploaders, thanks for your work on the package!
+  * Added myself to the uploaders.
+
+ -- Norbert Preining <norbert@preining.info>  Thu, 13 May 2021 09:45:54 +0900
+
+akonadi-mime (4:20.08.3-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (20.08.3).
+  * Update build-deps and deps with the info from cmake.
+  * Bump Standards-Version to 4.5.1 (No changes needed).
+  * Minimize the upstream GPG signing key.
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 16 Dec 2020 01:39:34 +0100
+
+akonadi-mime (4:20.08.2-2) unstable; urgency=medium
+
+  * Team upload to unstable.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 20 Oct 2020 00:07:59 +0200
+
+akonadi-mime (4:20.08.2-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (20.08.2).
+  * Update build-deps and deps with the info from cmake.
+  * Update Homepage link to point to new invent.kde.org
+  * Update field Source in debian/copyright to invent.kde.org move.
+  * Update repository related entries to metadata file.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 16 Oct 2020 00:52:34 +0200
+
+akonadi-mime (4:20.04.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Explicitly add the gettext build dependency.
+  * Switch from dhmk to the dh sequencer:
+    - invoke the dh sequencer using the kf5 addon
+    - call the right debhelper command instead of $(overridden_command)
+  * Unregister the old /etc/xdg/akonadi-mime.categories conffile.
+    (Closes: #946511)
+  * Remove the unused ${shlibs:Depends} substvar from akonadi-mime-data.
+
+ -- Pino Toscano <pino@debian.org>  Thu, 20 Aug 2020 07:35:53 +0200
+
+akonadi-mime (4:20.04.1-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (20.04.1).
+  * Update build-deps and deps with the info from cmake.
+  * Remove not needed Build-Depends.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 26 May 2020 23:59:47 +0200
+
+akonadi-mime (4:20.04.0-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * Update watch file to the new release-service location.
+  * Bump compat level to 13.
+  * Bump Standards-Version to 4.5.0 (No changes needed).
+  * Add Rules-Requires-Root field to control.
+  * New upstream release (19.12.3).
+  * Update build-deps and deps with the info from cmake.
+  * New upstream release (20.04.0).
+  * Enable hardening all.
+  * Remove COPYING.LIB listed in copyright file.
+  * Set field Upstream-Contact in debian/copyright.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 13 May 2020 12:21:53 +0200
+
+akonadi-mime (4:19.08.3-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (19.08.3).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 30 Nov 2019 22:54:43 +0100
+
+akonadi-mime (4:19.08.2-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.4.1 (No changes needed).
+  * New upstream release (19.08.2).
+  * Update build-deps and deps with the info from cmake.
+  * Update install files for new upstream release.
+  * Remove breaks against kde-l10n packages.
+  * Update libkf5akonadimime-dev dependencies.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 08 Nov 2019 10:39:32 +0100
+
+akonadi-mime (4:18.08.3-3) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 14 Nov 2019 23:49:12 +0100
+
+akonadi-mime (4:18.08.3-2) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.4.0 (No changes needed).
+  * Bump compat level to 12.
+  * Add myself to Uploaders.
+  * Delete not needed Breaks/Confilcts.
+  * Use virtual packages to bundle KDEPIM.
+  * Enforce depdendencies between KDEPIM packages to enable bundling.
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 05 Oct 2019 00:00:48 +0200
+
+akonadi-mime (4:18.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (18.08.3).
+  * Update build-deps and deps with the info from cmake.
+  * Bump Standards-Version to 4.3.0 (No changes needed).
+  * Removed acc autopkgtest.
+  * Removed testsuite autopkgtest.
+
+ -- Sandro Knauß <hefee@debian.org>  Mon, 04 Feb 2019 15:59:06 +0100
+
+akonadi-mime (4:18.08.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Do not hardcode the architecture in install files.
+
+ -- Pino Toscano <pino@debian.org>  Wed, 03 Oct 2018 08:04:06 +0200
+
+akonadi-mime (4:18.08.1-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.2.1 (No changes needed).
+  * New upstream release (18.08.1).
+  * Follow stable releases in KDE again.
+  * Update build-deps and deps with the info from cmake.
+  * Add akonadi_serializer_mail to libkf5akonadimime5 package.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 02 Oct 2018 23:18:35 +0200
+
+akonadi-mime (4:18.07.90-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Update watch file to match unstable releases, too.
+  * New upstream release (18.07.90).
+  * Bump Standards-Version to 4.2.0 (No changes needed).
+  * Update build-deps and deps with the info from cmake.
+  * Make failing tests not fail the build.
+  * Update copyright file for new upstream.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 17 Aug 2018 18:17:27 +0200
+
+akonadi-mime (4:17.12.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (17.12.3).
+  * bump epoch in symbolsfiles to match version of the package.
+  * Update build-deps and deps with the info from cmake.
+  * use secure copyright format uri.
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 31 Mar 2018 18:22:20 +0200
+
+akonadi-mime (4:17.12.2-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (17.12.2).
+  * Update Vcs links to salsa.
+  * Update build-deps and deps with the info from cmake
+  * remove not needed Build-Deps.
+  * Enable build tests.
+  * Add symbol file.
+  * Bump debhelper build-dep and compat to 11.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 09 Mar 2018 15:13:14 +0100
+
+akonadi-mime (4:17.08.3-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Pino Toscano ]
+  * Switch Section of akonadi-mime-data from libs to kde.
+  * Simplify watch file, and switch it to https.
+  * Bump Standards-Version to 4.1.3, no changes required.
+
+  [ Sandro Knauß ]
+  * mark libkf5akonadimime-dev as Multi-Arch: same
+
+ -- Pino Toscano <pino@debian.org>  Sat, 20 Jan 2018 09:23:53 +0100
+
+akonadi-mime (4:17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Maximiliano Curia ]
+  * New revision
+  * Update uploaders list as requested by MIA team
+
+  [ Sandro Knauß ]
+  * New upstream release (17.08.3).
+  * Get rid of unnessary break/replaces of kde-l10n-(ast|eo).
+  * Bump Standards-Version to 4.1.2 (No changes needed).
+  * Remove not needed Build-Deps.
+  * Bump debhelper build-dep and compat to 10.
+  * Set l10npkgs_firstversion_ok to 4:16.04.3-9~
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 21 Dec 2017 17:49:20 +0100
+
+akonadi-mime (4:17.08.0-1) experimental; urgency=medium
+
+  * New upstream release (17.08.0)
+  * Update upstream metadata
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.0.1.
+  * Bump group breaks (17.08)
+  * Update copyright file
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 01 Sep 2017 22:08:05 +0200
+
+akonadi-mime (4:17.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Aug 2017 09:29:36 +0000
+
+akonadi-mime (4:17.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 12 Jul 2017 10:17:23 +0000
+
+akonadi-mime (4:17.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 07 Jun 2017 12:19:28 +0000
+
+akonadi-mime (4:17.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 11 May 2017 18:07:43 +0000
+
+akonadi-mime (4:17.04.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 19 Apr 2017 13:02:00 +0000
+
+akonadi-mime (4:16.12.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Mar 2017 13:45:39 +0000
+
+akonadi-mime (4:16.12.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Feb 2017 16:55:19 +0000
+
+akonadi-mime (4:16.12.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 Jan 2017 13:12:25 +0000
+
+akonadi-mime (4:16.12.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 14 Dec 2016 16:21:51 +0000
+
+akonadi-mime (4:16.08.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 21 Nov 2016 13:51:47 +0000
+
+akonadi-mime (4:16.08.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 14 Oct 2016 13:38:10 +0000
+
+akonadi-mime (4:16.08.1-1~1.gbp1d41b5) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @1d41b527f77c9d4f1d81c99fc61f9e34bbdbf495 **
+
+  * Update build-deps and deps with the info from cmake
+  * UNRELEASED
+
+ -- Automatic packaging <jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 22:23:34 +0200
+
+akonadi-mime (4:16.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 16 Sep 2016 13:04:57 +0000
+
+akonadi-mime (4:16.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 17 Aug 2016 11:47:07 +0000
+
+akonadi-mime (4:16.07.80-0neon1) UNRELEASED; urgency=medium
+
+  * Initial package based off kf5-kdepimlibs
+
+ -- Jonathan Riddell <jr@jriddell.org>  Wed, 10 Aug 2016 09:20:27 +0000
